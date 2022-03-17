@@ -24,7 +24,7 @@ namespace Unity.Multiplayer.Samples.BossRoom.Server
         /// the time-length of the queue, since actions are allowed to block indefinitely. But this is still a useful estimate that prevents
         /// us from piling up a large number of small actions.
         /// </summary>
-        private const float k_MaxQueueTimeDepth = 1.6f;
+        private const float k_MaxQueueTimeDepth = 0.1f;
 
         private ActionRequestData m_PendingSynthesizedAction = new ActionRequestData();
         private bool m_HasPendingSynthesizedAction;

@@ -75,7 +75,7 @@ namespace Unity.Multiplayer.Samples.BossRoom.Client
         /// List of ActionRequests that have been received since the last FixedUpdate ran. This is a static array, to avoid allocs, and
         /// because we don't really want to let this list grow indefinitely.
         /// </summary>
-        private readonly ActionRequest[] m_ActionRequests = new ActionRequest[5];
+        private readonly ActionRequest[] m_ActionRequests = new ActionRequest[1];
 
         /// <summary>
         /// Number of ActionRequests that have been queued since the last FixedUpdate.
